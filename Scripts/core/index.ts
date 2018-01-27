@@ -1,15 +1,22 @@
 //IIFE - Imidiately Invoked Function Expressions
 //let - veriable exists only inside function
-(function () {
-    function Init() {
+(function(){
+    function Init():void{
         console.log("Game started");
     }
-    function Start() {
+
+    function Start():void{
+
     }
-    function Update() {
+
+    function Update():void{
+
     }
-    function Main() {
+
+    function Main():void{
+
     }
+
     window.onload = Init;
+
 })();
-//# sourceMappingURL=index.js.map
