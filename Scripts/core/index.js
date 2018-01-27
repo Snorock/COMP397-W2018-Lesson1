@@ -2,7 +2,7 @@
 //let - veriable exists only inside function
 (function(){
     function Init(){
-
+        console.log("Game started");
     }
 
     function Start(){
